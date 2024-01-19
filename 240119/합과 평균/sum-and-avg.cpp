@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    double a, b;
+    int a, b;
     cin >> a >> b;
     cout << fixed;
     cout.precision(1);
