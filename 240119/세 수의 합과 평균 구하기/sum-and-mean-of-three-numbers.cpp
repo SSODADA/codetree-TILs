@@ -9,6 +9,6 @@ int main() {
     cin >> c;
     cout << fixed;
     cout.precision(0);
-    cout << a+b+c << endl << (double)(a+b+c)/3;
+    cout << a+b+c << endl << (int)(a+b+c)/3;
     return 0;
 }
