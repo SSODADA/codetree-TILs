@@ -2,12 +2,10 @@
 using namespace std;
 
 int main() {
-    int a, b, c;
+    int a, b;
     cin >> a >> b;
-    
-    c = pow((0.01*a),2);
 
-    int bmi = b/c;
+    int bmi = b*100*100/(a*a);
 
     cout << bmi << endl;
     
