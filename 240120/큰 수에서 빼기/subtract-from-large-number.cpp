@@ -10,7 +10,7 @@ int main() {
     if (a > b) {
         cout << a-b;
     } 
-    if (a < b) {
+    else {
         cout << b-a;
     }
     
