@@ -6,7 +6,7 @@ int main() {
     if (b > c) {
         cout << (a==c) << " ";
     }
-    if (b < c) {
+    else if (b < c) {
         cout << (a==b) << " ";
     }
 
