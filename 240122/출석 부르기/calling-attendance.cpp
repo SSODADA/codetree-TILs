@@ -12,6 +12,9 @@ int main() {
     else if (a = 3) {
         cout << "Paul";
     }
+    else {
+        cout << "Vacancy";
+    }
     // 여기에 코드를 작성해주세요.
     return 0;
 }
