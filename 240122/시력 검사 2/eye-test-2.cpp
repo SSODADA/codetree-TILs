@@ -1,17 +1,12 @@
 #include <iostream>
 using namespace std;
 int main() {
-    double a, b, c;
+    double a;
     cin >> a;
-    cin.get();
-    cin >> b;
-    cout << fixed;
-    cout.precision(1);
-    c = (a+b)/2;
-    if (c >= 1.0) {
+    if (a >= 1.0) {
         cout << "High";
     }
-    else if (c >= 0.5) {
+    else if (a >= 0.5) {
         cout << "Middle";
     }
     else {
