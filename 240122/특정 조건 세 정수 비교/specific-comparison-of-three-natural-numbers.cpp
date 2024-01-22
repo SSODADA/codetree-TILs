@@ -7,11 +7,14 @@ int main() {
     cin >> b;
     cin.get();
     cin >> c;
-    if (b > c) {
+    if (b < c && b < a) {
+        cout << (a == b) << " ";
+    }
+    else if (c < b && c < a){
         cout << (a == c) << " ";
     }
-    else {
-        cout << (a == b) << " ";
+    else if (a < b && a < c) {
+        cout << (a == a) << " "'
     }
 
     cout << (a == b && a == c);
