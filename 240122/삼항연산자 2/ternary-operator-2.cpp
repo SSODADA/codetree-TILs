@@ -3,9 +3,8 @@ using namespace std;
 int main() {
     int a;
     cin >> a;
-    if (a = 1) 
-        cout << 't';
-    else 
-        cout << 'f';
+
+    cout << ((a == 1) ? "t" : "f");
+
     return 0;
 }
