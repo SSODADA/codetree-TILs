@@ -14,7 +14,7 @@ int main() {
         cout << (a == c) << " ";
     }
     else if (a < b && a < c) {
-        cout << (a == a) << " "'
+        cout << (a == a) << " ";
     }
 
     cout << (a == b && a == c);
