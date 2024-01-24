@@ -14,6 +14,7 @@ int main() {
     cin >> c_1;
     cin.get();
     cin >> c_2;
+   
     int n;
     n = 0;
     
@@ -26,10 +27,11 @@ int main() {
     if (c_1 = 'Y' && c_2 >= 37) {
         n += 1;
     }
+   
     if (n >= 2) {
         cout << "E";
     }
     else cout << "N";
-    // 여기에 코드를 작성해주세요.
+
     return 0;
 }
