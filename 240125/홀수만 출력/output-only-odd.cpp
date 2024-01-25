@@ -4,7 +4,7 @@ int main() {
     int a, b;
     cin >> a >> b;
     for (int i = 1; (i>=a && i<=b); i++) {
-        if (i%2 != 0) {
+        if (i%2 == 1) {
                 cout << i << " ";
             }
         }
