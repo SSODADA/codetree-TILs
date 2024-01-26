@@ -1,10 +1,14 @@
 #include <iostream>
 using namespace std;
 int main() {
-    double a, b, c;
+    int a, b;
     cin >> a >> b;
-    cout << fixed;
-    cout.precision(20);
-    cout << a/b;
-    return 0;
+    cout << a/b << ".";
+
+    a%=b;
+    for(int i=0; i <20; i++) {
+        a*=10;
+        cout << a/b;
+        a%=b;
+    }
 }
