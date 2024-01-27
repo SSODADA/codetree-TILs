@@ -8,7 +8,7 @@ int main() {
             cout << i << " ";
         }
     }
-    if (a <= b) {
+    else if (a <= b) {
         for (int i = b; i >= a; i--) {
             cout << i << " ";
         }
