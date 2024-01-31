@@ -6,14 +6,14 @@ int main() {
     cin >> a >> b;
 
     if(a<=b) {
-        for(int i=1; i<=b; i++) {
+        for(int i=a; i<=b; i++) {
             if(i%2==0) {
                 sum+=i;
             }
         }
     }
     else if(a>=b) {
-        for(int i=1; i<=a; i++) {
+        for(int i=b; i<=a; i++) {
             if(i%2==0) {
                 sum+=i;
             }
